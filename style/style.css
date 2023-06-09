@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgba(29,45,60,255);
+}
+
+
+header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(6,19,31,255);
+}
+
+
+.fa-spotify{
+    margin-left: 2em;
+    font-size: 5em;
+    color: rgba(24,216,96,255);
+}
+
+
+.container{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.card{
+    width: 300px;
+    height: 380px;
+    background-color: rgba(17,32,48,255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    padding-top: 1em;
+    color: white;
+    font-size: .8em;
+    border-radius: 20px;
+}
+
+
+img{
+    width: 200px;
+    border-radius: 20px;
+}

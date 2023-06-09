@@ -1,0 +1,38 @@
+[
+    {
+        "img": "img/star-wars.png",
+        "title": "Star Wars Main Theme",
+        "artist": "Jhon Williams",
+        "year": "1977"
+    },
+    {
+        "img": "img/stranger.jpeg",
+        "title": "Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)",
+        "artist": "Kyle Dixon & Micheal Stein",
+        "year": "2016"
+    },
+    {
+        "img": "img/aquietplace.jpeg",
+        "title": "A quiet place",
+        "artist": "Marco Beltrami",
+        "year": "2018"
+    },
+    {
+        "img": "img/split.jpeg",
+        "title": "Split",
+        "artist": "West Dylan Thordson",
+        "year": "2016"
+    },
+    {
+        "img": "img/cure.jpeg",
+        "title": "A cure for wellness",
+        "artist": "Benjamin Wallfisch",
+        "year": "2016"
+    },
+    {
+        "img": "img/youg.jpeg",
+        "title": "Young and beautyful",
+        "artist": "Lana del Rey",
+        "year": "2013"
+    }
+]

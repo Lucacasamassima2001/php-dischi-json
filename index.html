@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    
+    <title>Dischi</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <i class="fa-brands fa-spotify"></i>
+        </header>
+        <div class="container">   
+            <div v-for="album in Arr_dischi" :key="album" class="card">
+                <img :src="album.img" alt="">     
+                <h2>{{album.title}}</h2>
+                <h3>{{album.artist}}</h3>
+                <h4>{{album.year}}</h4>
+            </div>              
+        </div> 
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
